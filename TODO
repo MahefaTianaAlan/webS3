@@ -1,0 +1,169 @@
+TODO thé: 
+    -index (login x 2) :
+        -front :
+            ✔ Formulaire login (login,password,type(hidden)) @started(24-02-12 14:11) @done(24-02-12 14:20) @lasted(9m27s)
+        -back :
+        -bdd :
+        -integration :
+            ☐ Action formulaire
+    -traitementLogin.php :
+        -front :
+        -back :
+            ☐ checkLogin(login,password,type)
+        -bdd :
+            ☐ The_user(id,login,password,type)
+        -integration :
+            ✔ recuperer login,password,type @started(24-02-12 14:43) @done(24-02-12 14:44) @lasted(1m1s)
+            ✔ appeler checkLogin @started(24-02-12 14:44) @done(24-02-12 14:44) @lasted(14s)
+            ✔ retour checkLogin @started(24-02-12 14:44) @done(24-02-12 15:01) @lasted(17m)
+                =>if(true(admin)) Menu
+                =>if(true(user)) Menu
+                =>else index
+    -GestionVarieteThe :
+        -front :
+            ☐ Table variété avec 2 col de plus contenant les boutons supprimer et modifier,
+            et en bas ou en haut un bouton pour ajouter une variete
+        -back :
+            ☐ dropVariete(id--ou autre)
+        -bdd :
+        -integration :
+            ✔ action Table @started(24-02-12 15:36) @done(24-02-12 16:59) @lasted(1h23m58s)
+    -AddVariete :
+        -front :
+            ☐ Formulaire (nom variété thé,occupation,rendement)
+        -back :
+        -bdd :
+        -integration :
+            ☐ action formulaire
+    -TraitementAddVar.php :
+        -front :
+        -back :
+            ☐ addVariete(nom variété thé,occupation,rendement)
+        -bdd :
+            ☐ variété (nom variété thé,occupation,rendement)
+        -integration :
+            ☐ recuperer nom variété thé,occupation,rendement
+            ☐ appeler addVariete
+            ☐ retour addVariete
+                =>if(Success) Menu
+                =>else Menu
+    
+    -GestionParcelleThe :
+        -front :
+            ☐ Table parcelle avec 2 col de plus contenant les boutons supprimer et modifier,
+            et en bas ou en haut un bouton pour ajouter une parcelle
+            ☐ Formulaire parcelle (num parcelle,surface en hectar, variété de thé planté)
+        -back :
+            ☐ dropParcelle (id--ou autre)
+        -bdd :
+        -integration :
+            ✔ action Table @started(24-02-12 17:00) @done(24-02-12 17:00) @lasted(12s)
+    -AddParcelle :
+        -front :
+            ☐ Formulaire (num parcelle,surface en hectar, variété de thé planté)
+        -back :
+        -bdd :
+        -integration :
+            ☐ action formulaire
+    -TraitementAddPar.php :
+        -front :
+        -back :
+            ☐ addParcelle(num parcelle,surface en hectar, variété de thé planté)
+        -bdd :
+            ☐ parcelle (num parcelle,surface en hectar, variété de thé planté)
+        -integration :
+            ☐ recuperer num parcelle,surface en hectar, variété de thé planté
+            ☐ appeler addParcelle
+            ☐ retour addParcelle
+                =>if(Success) Menu
+                =>else Menu
+    
+    -GestionCueilleursThe :
+        -front :
+            ☐ Table cueilleur avec 2 col de plus contenant les boutons supprimer et modifier,
+             et en bas ou en haut un bouton pour ajouter un cuilleurs
+        -back :
+            ☐ dropCuilleur(id--ou autre)
+        -bdd :
+        -integration :
+            ✔ action Table @started(24-02-12 17:00) @done(24-02-12 17:00) @lasted(29s)
+    -AddCuilleur :
+        -front :
+            ☐ Formulaire (login,password,type)
+        -back :
+        -bdd :
+        -integration :
+            ☐ action formulaire
+    -TraitementAddCui.php :
+        -front :
+        -back :
+            ☐ addUser(login,password,type)
+        -bdd :
+            ☐ The_user(id,login,password,type)
+        -integration :
+            ☐ recuperer login,password,type
+            ☐ appeler addUser
+            ☐ retour addUser
+                =>if(Success) Menu
+                =>else Menu
+
+    -GestionCategorieDepThe :
+        -front :
+            ☐ Table categorieDep avec 2 col de plus contenant les boutons supprimer et modifier,
+             et en bas ou en haut un bouton pour ajouter une categorieDep
+        -back :
+            ☐ dropCategorieDep(id--ou autre)
+        -bdd :
+        -integration :
+            ✔ action Table @started(24-02-12 17:00) @done(24-02-12 17:00) @lasted(40s)
+    -AddCategorieDep :
+        -front :
+            ☐ Formulaire (nom Categorie)
+        -back :
+        -bdd :
+        -integration :
+            ☐ action formulaire
+    -TraitementAddCatDep.php :
+        -front :
+        -back :
+            ☐ addCatDep(nomCat)
+        -bdd :
+            ☐ CategorieDepense(id,nomCategorie)
+        -integration :
+            ☐ recuperer nomCategorie
+            ☐ appeler addCatDep
+            ☐ retour addCatDep
+                =>if(Success) Menu
+                =>else Menu
+    -Salaire_kg :
+        -front :
+        -back :
+        -bdd :
+        -integration :
+        
+        
+        
+    
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+
